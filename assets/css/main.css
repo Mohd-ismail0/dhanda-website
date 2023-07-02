@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0b5f5a;
+    font-size: 3.3vmin;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5% 5%;
+}
+.log{
+    margin-right: 10%;
+}
+.logo {
+    width: 32vmin;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+}
+.navlinks a{
+    width: max-content;
+    font-size: 3.3vmin;
+    padding: 0px 1.5vmin;
+}
+.active{
+    font-weight: 900;
+}
+.navlinks a:hover{
+    font-weight: 700;
+}
+.sub{
+    max-width: 200px;
+    font-size: 3vmin;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    padding: 1.28vmin 3.2vmin;
+    letter-spacing: 0.2px;
+    border-radius: 26px;
+}
+.sub:hover{
+    opacity: 0.7;
+}
+section{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.sect1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.sect1 h1{
+    font-size: 6.5vmin;
+}
+.sect1 h5{
+    color: #0b5f5a;
+    font-weight: 600;
+    font-size: 3.5vmin;
+}
+.sect1 div{
+    margin-top: 3.5%;
+    text-align: center;
+    padding: 0.5%;
+    margin-right: 3%;
+}
+.img1{
+    height: 55vmin;
+}
+
+.sect2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sect2 h1{
+    font-size: 5vmin;
+}
+.shadowbox{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    box-shadow: 1px 3px 2px 3px #d3d2d270;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-radius: 1vmin;
+}
+.shadowbox div{
+    padding: 1%;
+    margin-left: 4%;
+}
+.shadowbox div h5{
+    font-size: 3.5vmin;
+    font-weight: 500;
+    color: #0b5f5a;
+    font-style: normal;
+    text-align: justify;
+    line-height: 130%;
+}
+.shadowbox div h5 span{
+    font-weight: 600;
+}
+.feature1{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.feature1 div{
+    padding: 3% 5% 0 5%;
+}
+.fet2{
+    margin-top: 10%;
+}
+.features{
+    margin-top: 10%;
+}
+.features h1{
+    font-size: 4.5vmin;
+    margin-bottom: 7%;
+}
+.features h5{
+    font-size: 2.5vmin;
+    color: #0b5f5a;
+    line-height: 135%;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .log{
+        margin-right: 5%;
+    }
+    .sect1 {
+        margin-top: 15%;
+    }
+    .shadowbox{
+        padding-right: 7%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 7%;
+    }
+    .shadowbox div h5{
+        line-height: normal;
+    }
+}
