@@ -100,7 +100,8 @@ section{
     flex-direction: column;
 }
 .sect2 h1{
-    font-size: 5vmin;
+    font-size: 6vmin;
+    letter-spacing: 0.3vmin;
 }
 .shadowbox{
     margin-top: 1%;
@@ -147,6 +148,7 @@ section{
 }
 .features h1{
     font-size: 4.5vmin;
+    letter-spacing: normal;
     margin-bottom: 7%;
 }
 .features h5{
