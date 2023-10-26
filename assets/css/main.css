@@ -213,6 +213,47 @@ section {
     animation: scrollAnimation 1s infinite;
 }
 
+.sect3{
+    background-color: #ebf3f2;
+    width: 100%;
+    margin-top: 5vmin;
+    margin-bottom: 14vmin;
+}
+.staytuned{
+    background-color: #ebf3f2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.staytuned h2{
+    font-weight: 600;
+    font-size: 3.6vmin;
+    text-transform: capitalize;
+}
+.staytuned input{
+    margin: 1.6vmin;
+    padding: 1.6vmin 3.2vmin ;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0.16vmin;
+    font-size: 2.88vmin;
+    background-color: #ffffff;
+    border: 0.45vmin solid #0b5f5a;
+    border-radius: 1vmin;
+}
+.staytuned button{
+    margin: 1.6vmin;
+    padding: 1.6vmin 3.2vmin;
+    font-weight: 600;
+    letter-spacing: 0.16vmin;
+    font-size: 2.88vmin;
+    border: none;
+    border-radius: 1.2vmin;
+    background-color: #0b5f5a;
+    color: #ebf3f2;
+}
+
 footer{
     position: relative;
     bottom: 0px;
