@@ -166,6 +166,9 @@ section{
     .sect1 {
         margin-top: 15%;
     }
+    .sect2 h1{
+        text-align: center;
+    }
     .shadowbox{
         padding-right: 7%;
         padding-top: 4%;
@@ -174,5 +177,12 @@ section{
     }
     .shadowbox div h5{
         line-height: normal;
+    }
+    .img1{
+        height: 50vmin;
+    }
+    .features h5{
+        font-size: 2.5vmin;
+        line-height: 100%;
     }
 }
