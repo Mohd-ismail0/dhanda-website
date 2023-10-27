@@ -156,7 +156,10 @@ section {
 }
 
 .feature1 {
-    margin-top: 3%;
+    padding: 5%;
+    margin: 5% 0 5% 0;
+    border: 1px solid #ebf3f2;
+    border-radius: 1vmin;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -166,8 +169,11 @@ section {
     padding: 3% 5% 0 5%;
 }
 
-.fet2 {
-    margin-top: 10%;
+.fet2{
+    background-color: #ecf3f2;
+} 
+.fet2 div, .fet2 h1, .fet2 h5{
+    background-color: #ecf3f2;
 }
 
 .features {
@@ -217,20 +223,27 @@ section {
     background-color: #ebf3f2;
     width: 100%;
     margin-top: 5vmin;
-    margin-bottom: 14vmin;
+    padding-bottom: 14vmin;
+    display: flex;
+    align-items: center;
+}
+.scrtxt, .scrtxt h4, .scrtxt h2, .staytuned form{
+    background-color: #ebf3f2;
+}
+.scrtxt h2{
+    font-weight: 700;
+    font-size: 4.5vmin;
+    text-transform: capitalize;
 }
 .staytuned{
     background-color: #ebf3f2;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items:start;
+    justify-content: space-evenly;
 }
-.staytuned h2{
-    font-weight: 600;
-    font-size: 3.6vmin;
-    text-transform: capitalize;
-}
+
 .staytuned input{
     margin: 1.6vmin;
     padding: 1.6vmin 3.2vmin ;
@@ -245,23 +258,20 @@ section {
 .staytuned button{
     margin: 1.6vmin;
     padding: 1.6vmin 3.2vmin;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.16vmin;
     font-size: 2.88vmin;
     border: none;
     border-radius: 1.2vmin;
     background-color: #0b5f5a;
-    color: #ebf3f2;
+    color: #ffffff;
 }
 
 footer{
-    position: relative;
-    bottom: 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-    margin-top: 15vmin;
 }
 hr.rounded{
     width: 90%;
