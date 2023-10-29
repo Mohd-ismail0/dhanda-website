@@ -18,13 +18,19 @@ section{
     margin-top: 2.5%;
     width: 35%;
     padding: 5%;
-    line-height: 150%;
+    line-height: 130%;
 }
 .left-side span{
     font-weight: 600;
 }
 .left-side a{
     font-size: inherit;
+}
+.left-side h2{
+    font-size: 4.5vmin;
+}
+.left-side p{
+    font-size: 2.5vmin;
 }
 .right-side {
     width: 45%;
@@ -48,4 +54,10 @@ section{
     color: #ffffff;
     border: none;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-side p{
+        font-size: 3vmin;
+    }
 }
