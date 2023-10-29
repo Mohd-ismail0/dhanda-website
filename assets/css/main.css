@@ -315,6 +315,7 @@ section {
     border-radius: 1.2vmin;
     background-color: #0b5f5a;
     color: #ffffff;
+    cursor: pointer;
 }
 
 footer {
