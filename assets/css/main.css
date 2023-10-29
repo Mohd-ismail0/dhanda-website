@@ -214,7 +214,7 @@ section {
     color: #0b5f5a;
     line-height: 135%;
     font-weight: 500;
-    letter-spacing: 0.09vmin;
+    letter-spacing: 0.1vmin;
 }
 
 #scrollButton {
@@ -395,6 +395,9 @@ hr.rounded {
     .sect2 h1 {
         text-align: center;
     }
+    .features h1{
+        text-align: left;
+    }
 
     .shadowbox {
         padding-right: 7%;
@@ -412,7 +415,7 @@ hr.rounded {
     }
 
     .features h5 {
-        font-size: 2.5vmin;
+        font-size: 2.7vmin;
         line-height: 100%;
     }
 }
