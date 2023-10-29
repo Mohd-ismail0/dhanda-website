@@ -1,0 +1,51 @@
+.shadow{
+    border: none;
+    box-shadow: 1px 2px 2px #465152;
+    border-radius: 0.2vmin;
+}
+.body{
+    width: 100vh;
+}
+section{    
+    width: 80%;
+    padding: 10%;
+    margin: 2.5% 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-side {
+    margin-top: 2.5%;
+    width: 35%;
+    padding: 5%;
+    line-height: 150%;
+}
+.left-side span{
+    font-weight: 600;
+}
+.left-side a{
+    font-size: inherit;
+}
+.right-side {
+    width: 45%;
+    padding: 5% 15%;
+    font-size: 2.3vmin;
+    line-height: 180%;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 1vmin;
+    padding: 5px;
+    border-radius: 0.3vmin;
+}
+.contact-form button {
+    padding: 10px;
+    background-color: #0b5f5a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
