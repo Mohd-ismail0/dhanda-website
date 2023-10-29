@@ -210,11 +210,11 @@ section {
 }
 
 .features h5 {
-    font-size: 3vmin;
+    font-size: 3.2vmin;
     color: #0b5f5a;
     line-height: 135%;
     font-weight: 500;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.09vmin;
 }
 
 #scrollButton {
