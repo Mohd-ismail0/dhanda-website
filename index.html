@@ -2,56 +2,6 @@
 <html lang="en">
 
 <head>
-        <!-- Google Consent Mode Default Settings (Precede gtag.js) -->
-    <script data-cookieconsent="ignore">
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("consent", "default", {
-            ad_personalization: "denied",
-            ad_storage: "denied",
-            ad_user_data: "denied",
-            analytics_storage: "denied",
-            functionality_storage: "denied",
-            personalization_storage: "denied",
-            security_storage: "granted",
-            wait_for_update: 500,
-        });
-        gtag("set", "ads_data_redaction", true);
-        gtag("set", "url_passthrough", false);
-    </script>
-    
-    <!-- Cookiebot Script -->
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5811f624-c38f-4108-a819-5d6f974cbc41" type="text/javascript" async></script>
-    
-    <!-- Google Tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-98RV262LFK"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-98RV262LFK');
-    </script>
-    
-    <!-- Update Google Consent Mode Based on Cookiebot -->
-    <script>
-      function updateGCMConsent() {
-          var ad_consent = (Cookiebot.consents.marketing) ? 'granted' : 'denied';
-          var analytics_consent = (Cookiebot.consents.statistics) ? 'granted' : 'denied';
-    
-          gtag('consent', 'update', {
-              'ad_storage': ad_consent,
-              'analytics_storage': analytics_consent
-          });
-      }
-    
-      window.addEventListener('CookieConsentDeclaration', function() {
-          updateGCMConsent();
-      });
-    </script>
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
